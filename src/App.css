@@ -40,3 +40,86 @@
 .read-the-docs {
   color: #888;
 }
+
+.header {
+  background-color: burlywood;
+  padding: 10px;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav a {
+  display: inline-block;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 5px 10px;
+}
+
+.nav a:hover {
+  background-color: #555;
+}
+
+.quote-div {
+  background-color: burlywood;
+  border-radius: 15px;
+  color: #1a1a1a;
+}
+
+.quote-div a {
+  background-color: #9f3ad9;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #1a1a1a;
+  margin: 0 10px 0 0;
+}
+
+.delete-btn {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.inputs {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
